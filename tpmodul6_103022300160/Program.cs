@@ -5,8 +5,12 @@ class Program
     public static void Main()
     {
         SayaTubeVideo video = new SayaTubeVideo("Tutorial Design By Contract - Alya Rahmadayani");
-        video.IncreasePlayCount(20);
-        video.PrintVideoDetails();
+        for (int i = 0; i < 5; i++)
+        {
+            video.IncreasePlayCount(1500000);
+            video.PrintVideoDetails();
+
+        }
     }
 }
 
